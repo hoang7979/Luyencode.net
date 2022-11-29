@@ -5,7 +5,7 @@ int main()
     int a ;
     int giaithua = 1 ;
   scanf("%d",&a);
-  if (a > 0 && a <= 12 )
+  if (a <= 12 )
   {
       for ( int i = 1 ; i <= a ; i ++ ) {
     giaithua = giaithua * i ;
